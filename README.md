@@ -11,12 +11,19 @@ La aplicación en este proyecto consiste en un juego de tipo trivia de opción m
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 SERVICIOS:
+
     °FIREBASE: será la base de datos donde se almacenarán todos los usuarios que se registren .
+    
     °APPI # 1 : 
+    
     °APPI # 2 : 
+    
     °APPI # 3 : 
 
 LIBRERIAS 
+
     ° JETPACK: 
+    
     ° Graph View
+    
     °RETROFIT:
