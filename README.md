@@ -19,8 +19,8 @@ SERVICIOS:
 
 LIBRERIAS 
 
-    ° JETPACK: 
+    ° JETPACK: se usará navegación entre las diferentes vistas de la aplicación.
     
-    ° Graph View: 
+    ° Graph View: servirá para generar las diferentes gráficas de las calificaciones de los usuarios al momento de terminar un cuestionario.
     
-    °RETROFIT:
+    °RETROFIT: se utilizará para llamar a la APPI que servirá para obtener la información necesaria.
