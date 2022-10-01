@@ -12,7 +12,7 @@ SERVICIOS:
 
     °FIREBASE: será la base de datos donde se almacenarán todos los usuarios que se registren .
     
-    °APPI 1 que se va a utilizar para el proyecto : https://www.programmableweb.com/category/trivia/api 
+    °APPI 1 que se va a utilizar para el proyecto para poder publicar la aplicación al playstore y también realizarle diferentes actualizaciones : https://www.programmableweb.com/category/trivia/api 
     
 
 LIBRERIAS 
@@ -21,7 +21,7 @@ LIBRERIAS
     
     ° Graph View: servirá para generar las diferentes gráficas de las calificaciones de los usuarios al momento de terminar un cuestionario.
     
-    °RETROFIT: se utilizará para llamar a la APPI que servirá para obtener la información necesaria.
+    ° RETROFIT: se utilizará para llamar a la APPI que servirá para obtener la información necesaria.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Integrantes
 
