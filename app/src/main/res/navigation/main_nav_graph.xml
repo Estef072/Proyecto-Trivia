@@ -30,10 +30,439 @@
         <action
             android:id="@+id/action_menu3_to_preguntaAmbiente1"
             app:destination="@id/preguntaAmbiente1" />
+        <action
+            android:id="@+id/action_menu3_to_preguntaCiencia1"
+            app:destination="@id/preguntaCiencia1" />
+        <action
+            android:id="@+id/action_menu3_to_preguntaDeporte1"
+            app:destination="@id/preguntaDeporte1" />
+        <action
+            android:id="@+id/action_menu3_to_preguntaGeografia1"
+            app:destination="@id/preguntaGeografia1" />
+        <action
+            android:id="@+id/action_menu3_self"
+            app:destination="@id/menu3" />
+        <action
+            android:id="@+id/action_menu3_to_preguntaHistoria1"
+            app:destination="@id/preguntaHistoria1" />
+        <action
+            android:id="@+id/action_menu3_to_preguntaLiteratura1"
+            app:destination="@id/preguntaLiteratura1" />
+        <action
+            android:id="@+id/action_menu3_to_preguntaMusica1"
+            app:destination="@id/preguntaMusica1" />
+        <action
+            android:id="@+id/action_menu3_to_preguntaReligion1"
+            app:destination="@id/preguntaReligion1" />
+        <action
+            android:id="@+id/action_menu3_self2"
+            app:destination="@id/menu3" />
+        <action
+            android:id="@+id/action_menu3_to_preguntaTecnologia1"
+            app:destination="@id/preguntaTecnologia1" />
     </fragment>
     <fragment
         android:id="@+id/preguntaAmbiente1"
         android:name="com.example.proyecto_trivia20.Ambiente.PreguntaAmbiente1"
         android:label="fragment_pregunta_ambiente1"
-        tools:layout="@layout/fragment_pregunta_ambiente1" />
+        tools:layout="@layout/fragment_pregunta_ambiente1" >
+        <action
+            android:id="@+id/action_preguntaAmbiente1_to_preguntaAmbiente2"
+            app:destination="@id/preguntaAmbiente2" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaAmbiente2"
+        android:name="com.example.proyecto_trivia20.Ambiente.PreguntaAmbiente2"
+        android:label="fragment_pregunta_ambiente2"
+        tools:layout="@layout/fragment_pregunta_ambiente2" >
+        <action
+            android:id="@+id/action_preguntaAmbiente2_to_preguntaAmbiente3"
+            app:destination="@id/preguntaAmbiente3" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaAmbiente3"
+        android:name="com.example.proyecto_trivia20.Ambiente.PreguntaAmbiente3"
+        android:label="fragment_pregunta_ambiente3"
+        tools:layout="@layout/fragment_pregunta_ambiente3" >
+        <action
+            android:id="@+id/action_preguntaAmbiente3_to_preguntaAmbiente4"
+            app:destination="@id/preguntaAmbiente4" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaAmbiente4"
+        android:name="com.example.proyecto_trivia20.Ambiente.PreguntaAmbiente4"
+        android:label="fragment_pregunta_ambiente4"
+        tools:layout="@layout/fragment_pregunta_ambiente4" >
+        <action
+            android:id="@+id/action_preguntaAmbiente4_to_preguntaAmbiente5"
+            app:destination="@id/preguntaAmbiente5" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaAmbiente5"
+        android:name="com.example.proyecto_trivia20.Ambiente.PreguntaAmbiente5"
+        android:label="fragment_pregunta_ambiente5"
+        tools:layout="@layout/fragment_pregunta_ambiente5" >
+        <action
+            android:id="@+id/action_preguntaAmbiente5_to_menu3"
+            app:destination="@id/menu3" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaCiencia1"
+        android:name="com.example.proyecto_trivia20.Ciencia.PreguntaCiencia1"
+        android:label="fragment_pregunta_ciencia1"
+        tools:layout="@layout/fragment_pregunta_ciencia1" >
+        <action
+            android:id="@+id/action_preguntaCiencia1_to_preguntaCiencia2"
+            app:destination="@id/preguntaCiencia2" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaCiencia2"
+        android:name="com.example.proyecto_trivia20.Ciencia.PreguntaCiencia2"
+        android:label="fragment_pregunta_ciencia2"
+        tools:layout="@layout/fragment_pregunta_ciencia2" >
+        <action
+            android:id="@+id/action_preguntaCiencia2_to_preguntaCiencia3"
+            app:destination="@id/preguntaCiencia3" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaCiencia3"
+        android:name="com.example.proyecto_trivia20.Ciencia.PreguntaCiencia3"
+        android:label="fragment_pregunta_ciencia3"
+        tools:layout="@layout/fragment_pregunta_ciencia3" >
+        <action
+            android:id="@+id/action_preguntaCiencia3_to_preguntaCiencia4"
+            app:destination="@id/preguntaCiencia4" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaCiencia4"
+        android:name="com.example.proyecto_trivia20.Ciencia.PreguntaCiencia4"
+        android:label="fragment_pregunta_ciencia4"
+        tools:layout="@layout/fragment_pregunta_ciencia4" >
+        <action
+            android:id="@+id/action_preguntaCiencia4_to_preguntaCiencia52"
+            app:destination="@id/preguntaCiencia52" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaCiencia52"
+        android:name="com.example.proyecto_trivia20.Ciencia.PreguntaCiencia5"
+        android:label="fragment_pregunta_ciencia5"
+        tools:layout="@layout/fragment_pregunta_ciencia5" >
+        <action
+            android:id="@+id/action_preguntaCiencia52_to_menu3"
+            app:destination="@id/menu3" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaDeporte1"
+        android:name="com.example.proyecto_trivia20.Deportes.PreguntaDeporte1"
+        android:label="fragment_pregunta_deporte1"
+        tools:layout="@layout/fragment_pregunta_deporte1" >
+        <action
+            android:id="@+id/action_preguntaDeporte1_to_preguntaDeporte2"
+            app:destination="@id/preguntaDeporte2" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaDeporte2"
+        android:name="com.example.proyecto_trivia20.Deportes.PreguntaDeporte2"
+        android:label="fragment_pregunta_deporte2"
+        tools:layout="@layout/fragment_pregunta_deporte2" >
+        <action
+            android:id="@+id/action_preguntaDeporte2_to_preguntaDeporte3"
+            app:destination="@id/preguntaDeporte3" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaDeporte3"
+        android:name="com.example.proyecto_trivia20.Deportes.PreguntaDeporte3"
+        android:label="fragment_pregunta_deporte3"
+        tools:layout="@layout/fragment_pregunta_deporte3" >
+        <action
+            android:id="@+id/action_preguntaDeporte3_to_preguntaDeporte4"
+            app:destination="@id/preguntaDeporte4" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaDeporte4"
+        android:name="com.example.proyecto_trivia20.Deportes.PreguntaDeporte4"
+        android:label="fragment_pregunta_deporte4"
+        tools:layout="@layout/fragment_pregunta_deporte4" >
+        <action
+            android:id="@+id/action_preguntaDeporte4_to_preguntaDeporte5"
+            app:destination="@id/preguntaDeporte5" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaDeporte5"
+        android:name="com.example.proyecto_trivia20.Deportes.PreguntaDeporte5"
+        android:label="fragment_pregunta_deporte5"
+        tools:layout="@layout/fragment_pregunta_deporte5" >
+        <action
+            android:id="@+id/action_preguntaDeporte5_to_menu3"
+            app:destination="@id/menu3" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaGeografia1"
+        android:name="com.example.proyecto_trivia20.Geografia.PreguntaGeografia1"
+        android:label="fragment_pregunta_geografia1"
+        tools:layout="@layout/fragment_pregunta_geografia1" >
+        <action
+            android:id="@+id/action_preguntaGeografia1_to_preguntaGeografia2"
+            app:destination="@id/preguntaGeografia2" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaGeografia2"
+        android:name="com.example.proyecto_trivia20.Geografia.PreguntaGeografia2"
+        android:label="fragment_pregunta_geografia2"
+        tools:layout="@layout/fragment_pregunta_geografia2" >
+        <action
+            android:id="@+id/action_preguntaGeografia2_to_preguntaGeografia3"
+            app:destination="@id/preguntaGeografia3" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaGeografia3"
+        android:name="com.example.proyecto_trivia20.Geografia.PreguntaGeografia3"
+        android:label="fragment_pregunta_geografia3"
+        tools:layout="@layout/fragment_pregunta_geografia3" >
+        <action
+            android:id="@+id/action_preguntaGeografia3_to_preguntaGeografia4"
+            app:destination="@id/preguntaGeografia4" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaGeografia4"
+        android:name="com.example.proyecto_trivia20.Geografia.PreguntaGeografia4"
+        android:label="fragment_pregunta_geografia4"
+        tools:layout="@layout/fragment_pregunta_geografia4" >
+        <action
+            android:id="@+id/action_preguntaGeografia4_to_preguntaGeografia5"
+            app:destination="@id/preguntaGeografia5" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaGeografia5"
+        android:name="com.example.proyecto_trivia20.Geografia.PreguntaGeografia5"
+        android:label="fragment_pregunta_geografia5"
+        tools:layout="@layout/fragment_pregunta_geografia5" >
+        <action
+            android:id="@+id/action_preguntaGeografia5_to_menu3"
+            app:destination="@id/menu3" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaHistoria1"
+        android:name="com.example.proyecto_trivia20.Historia.PreguntaHistoria1"
+        android:label="fragment_pregunta_historia1"
+        tools:layout="@layout/fragment_pregunta_historia1" >
+        <action
+            android:id="@+id/action_preguntaHistoria1_to_preguntaHistoria2"
+            app:destination="@id/preguntaHistoria2" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaHistoria2"
+        android:name="com.example.proyecto_trivia20.Historia.PreguntaHistoria2"
+        android:label="fragment_pregunta_historia2"
+        tools:layout="@layout/fragment_pregunta_historia2" >
+        <action
+            android:id="@+id/action_preguntaHistoria2_to_preguntaHistoria3"
+            app:destination="@id/preguntaHistoria3" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaHistoria3"
+        android:name="com.example.proyecto_trivia20.Historia.PreguntaHistoria3"
+        android:label="fragment_pregunta_historia3"
+        tools:layout="@layout/fragment_pregunta_historia3" >
+        <action
+            android:id="@+id/action_preguntaHistoria3_to_preguntaHistoria4"
+            app:destination="@id/preguntaHistoria4" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaHistoria4"
+        android:name="com.example.proyecto_trivia20.Historia.PreguntaHistoria4"
+        android:label="fragment_pregunta_historia4"
+        tools:layout="@layout/fragment_pregunta_historia4" >
+        <action
+            android:id="@+id/action_preguntaHistoria4_to_preguntaHistoria5"
+            app:destination="@id/preguntaHistoria5" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaHistoria5"
+        android:name="com.example.proyecto_trivia20.Historia.PreguntaHistoria5"
+        android:label="fragment_pregunta_historia5"
+        tools:layout="@layout/fragment_pregunta_historia5" >
+        <action
+            android:id="@+id/action_preguntaHistoria5_to_menu3"
+            app:destination="@id/menu3" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaLiteratura1"
+        android:name="com.example.proyecto_trivia20.Fragments.Literatura.PreguntaLiteratura1"
+        android:label="fragment_pregunta_literatura1"
+        tools:layout="@layout/fragment_pregunta_literatura1" >
+        <action
+            android:id="@+id/action_preguntaLiteratura1_to_preguntaLiteratura2"
+            app:destination="@id/preguntaLiteratura2" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaLiteratura2"
+        android:name="com.example.proyecto_trivia20.Fragments.Literatura.PreguntaLiteratura2"
+        android:label="fragment_pregunta_literatura2"
+        tools:layout="@layout/fragment_pregunta_literatura2" >
+        <action
+            android:id="@+id/action_preguntaLiteratura2_to_preguntaLiteratura3"
+            app:destination="@id/preguntaLiteratura3" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaLiteratura3"
+        android:name="com.example.proyecto_trivia20.Fragments.Literatura.PreguntaLiteratura3"
+        android:label="fragment_pregunta_literatura3"
+        tools:layout="@layout/fragment_pregunta_literatura3" >
+        <action
+            android:id="@+id/action_preguntaLiteratura3_to_preguntaLiteratura4"
+            app:destination="@id/preguntaLiteratura4" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaLiteratura4"
+        android:name="com.example.proyecto_trivia20.Fragments.Literatura.PreguntaLiteratura4"
+        android:label="fragment_pregunta_literatura4"
+        tools:layout="@layout/fragment_pregunta_literatura4" >
+        <action
+            android:id="@+id/action_preguntaLiteratura4_to_preguntaLiteratura5"
+            app:destination="@id/preguntaLiteratura5" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaLiteratura5"
+        android:name="com.example.proyecto_trivia20.Fragments.Literatura.PreguntaLiteratura5"
+        android:label="fragment_pregunta_literatura5"
+        tools:layout="@layout/fragment_pregunta_literatura5" >
+        <action
+            android:id="@+id/action_preguntaLiteratura5_to_menu3"
+            app:destination="@id/menu3" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaMusica1"
+        android:name="com.example.proyecto_trivia20.Musica.PreguntaMusica1"
+        android:label="fragment_pregunta_musica1"
+        tools:layout="@layout/fragment_pregunta_musica1" >
+        <action
+            android:id="@+id/action_preguntaMusica1_to_preguntaMusica2"
+            app:destination="@id/preguntaMusica2" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaMusica2"
+        android:name="com.example.proyecto_trivia20.Musica.PreguntaMusica2"
+        android:label="fragment_pregunta_musica2"
+        tools:layout="@layout/fragment_pregunta_musica2" >
+        <action
+            android:id="@+id/action_preguntaMusica2_to_preguntaMusica3"
+            app:destination="@id/preguntaMusica3" />
+        <action
+            android:id="@+id/action_preguntaMusica2_to_preguntaMusica32"
+            app:destination="@id/preguntaMusica3" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaMusica3"
+        android:name="com.example.proyecto_trivia20.Musica.PreguntaMusica3"
+        android:label="fragment_pregunta_musica3"
+        tools:layout="@layout/fragment_pregunta_musica3" >
+        <action
+            android:id="@+id/action_preguntaMusica3_to_preguntaMusica4"
+            app:destination="@id/preguntaMusica4" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaMusica4"
+        android:name="com.example.proyecto_trivia20.Musica.PreguntaMusica4"
+        android:label="fragment_pregunta_musica4"
+        tools:layout="@layout/fragment_pregunta_musica4" >
+        <action
+            android:id="@+id/action_preguntaMusica4_to_preguntaMusica5"
+            app:destination="@id/preguntaMusica5" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaMusica5"
+        android:name="com.example.proyecto_trivia20.Musica.PreguntaMusica5"
+        android:label="fragment_pregunta_musica5"
+        tools:layout="@layout/fragment_pregunta_musica5" >
+        <action
+            android:id="@+id/action_preguntaMusica5_to_menu3"
+            app:destination="@id/menu3" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaReligion1"
+        android:name="com.example.proyecto_trivia20.Religion.PreguntaReligion1"
+        android:label="fragment_pregunta_religion1"
+        tools:layout="@layout/fragment_pregunta_religion1" >
+        <action
+            android:id="@+id/action_preguntaReligion1_to_preguntaReligion2"
+            app:destination="@id/preguntaReligion2" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaReligion2"
+        android:name="com.example.proyecto_trivia20.Religion.PreguntaReligion2"
+        android:label="fragment_pregunta_religion2"
+        tools:layout="@layout/fragment_pregunta_religion2" >
+        <action
+            android:id="@+id/action_preguntaReligion2_to_preguntaReligion3"
+            app:destination="@id/preguntaReligion3" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaReligion3"
+        android:name="com.example.proyecto_trivia20.Religion.PreguntaReligion3"
+        android:label="fragment_pregunta_religion3"
+        tools:layout="@layout/fragment_pregunta_religion3" >
+        <action
+            android:id="@+id/action_preguntaReligion3_to_preguntaReligion4"
+            app:destination="@id/preguntaReligion4" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaReligion4"
+        android:name="com.example.proyecto_trivia20.Religion.PreguntaReligion4"
+        android:label="fragment_pregunta_religion4"
+        tools:layout="@layout/fragment_pregunta_religion4" >
+        <action
+            android:id="@+id/action_preguntaReligion4_to_preguntaReligion5"
+            app:destination="@id/preguntaReligion5" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaReligion5"
+        android:name="com.example.proyecto_trivia20.Religion.PreguntaReligion5"
+        android:label="fragment_pregunta_religion5"
+        tools:layout="@layout/fragment_pregunta_religion5" >
+        <action
+            android:id="@+id/action_preguntaReligion5_to_menu3"
+            app:destination="@id/menu3" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaTecnologia1"
+        android:name="com.example.proyecto_trivia20.Tecnologia.PreguntaTecnologia1"
+        android:label="fragment_pregunta_tecnologia1"
+        tools:layout="@layout/fragment_pregunta_tecnologia1" >
+        <action
+            android:id="@+id/action_preguntaTecnologia1_to_preguntaTecnologia2"
+            app:destination="@id/preguntaTecnologia2" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaTecnologia2"
+        android:name="com.example.proyecto_trivia20.Tecnologia.PreguntaTecnologia2"
+        android:label="fragment_pregunta_tecnologia2"
+        tools:layout="@layout/fragment_pregunta_tecnologia2" >
+        <action
+            android:id="@+id/action_preguntaTecnologia2_to_preguntaTecnologia3"
+            app:destination="@id/preguntaTecnologia3" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaTecnologia3"
+        android:name="com.example.proyecto_trivia20.Tecnologia.PreguntaTecnologia3"
+        android:label="fragment_pregunta_tecnologia3"
+        tools:layout="@layout/fragment_pregunta_tecnologia3" >
+        <action
+            android:id="@+id/action_preguntaTecnologia3_to_preguntaTecnologia4"
+            app:destination="@id/preguntaTecnologia4" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaTecnologia4"
+        android:name="com.example.proyecto_trivia20.Tecnologia.PreguntaTecnologia4"
+        android:label="fragment_pregunta_tecnologia4"
+        tools:layout="@layout/fragment_pregunta_tecnologia4" >
+        <action
+            android:id="@+id/action_preguntaTecnologia4_to_preguntaTecnologia5"
+            app:destination="@id/preguntaTecnologia5" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaTecnologia5"
+        android:name="com.example.proyecto_trivia20.Tecnologia.PreguntaTecnologia5"
+        android:label="fragment_pregunta_tecnologia5"
+        tools:layout="@layout/fragment_pregunta_tecnologia5" />
 </navigation>
