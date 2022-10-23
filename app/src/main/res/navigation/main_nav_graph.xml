@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/login14">
+    <fragment
+        android:id="@+id/login14"
+        android:name="com.example.proyecto_trivia20.login1"
+        android:label="fragment_login_oficial1"
+        tools:layout="@layout/fragment_login_oficial1" >
+        <action
+            android:id="@+id/action_login14_to_menu3"
+            app:destination="@id/menu3" />
+    </fragment>
+    <fragment
+        android:id="@+id/register"
+        android:name="com.example.proyecto_trivia20.register"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_register_to_login14"
+            app:destination="@id/login14" />
+    </fragment>
+    <fragment
+        android:id="@+id/menu3"
+        android:name="com.example.proyecto_trivia20.Menu"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menu3_to_preguntaAmbiente1"
+            app:destination="@id/preguntaAmbiente1" />
+    </fragment>
+    <fragment
+        android:id="@+id/preguntaAmbiente1"
+        android:name="com.example.proyecto_trivia20.Ambiente.PreguntaAmbiente1"
+        android:label="fragment_pregunta_ambiente1"
+        tools:layout="@layout/fragment_pregunta_ambiente1" />
+</navigation>
