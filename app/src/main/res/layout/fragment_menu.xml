@@ -116,7 +116,7 @@
             android:fontFamily="sans-serif-black"
             android:gravity="center_horizontal"
             android:text="¿Qué deseas\n jugar?"
-            android:textSize="34sp"
+            android:textSize="36sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/imageView6"
             app:layout_constraintHorizontal_bias="1.0"
