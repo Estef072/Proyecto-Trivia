@@ -24,8 +24,9 @@
             app:layout_constraintVertical_bias="0.016" />
 
         <ScrollView
-            android:layout_width="491dp"
-            android:layout_height="875dp"
+            android:id="@+id/scrollView2"
+            android:layout_width="445dp"
+            android:layout_height="534dp"
             android:background="@color/white"
             android:contentDescription="@string/app_name"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -46,17 +47,17 @@
                     android:id="@+id/imageButton9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:contentDescription="TODO"
                     android:src="@drawable/historia4"
-                    tools:ignore="SpeakableTextPresentCheck"
-                    android:contentDescription="TODO" />
+                    tools:ignore="SpeakableTextPresentCheck" />
 
                 <ImageButton
                     android:id="@+id/imageButton10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:contentDescription="TODO"
                     android:src="@drawable/Ciencia"
-                    tools:ignore="SpeakableTextPresentCheck"
-                    android:contentDescription="TODO" />
+                    tools:ignore="SpeakableTextPresentCheck" />
 
                 <ImageButton
                     android:id="@+id/imageButton11"
@@ -72,37 +73,56 @@
                     android:src="@drawable/literatura"
                     tools:ignore="SpeakableTextPresentCheck" />
 
-                <Button
-                    android:id="@+id/button61"
+                <ImageButton
+                    android:id="@+id/imageButton13"
                     android:layout_width="match_parent"
-                    android:layout_height="187dp"
-                    android:text="Button" />
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/literatura__1_"
+                    tools:ignore="SpeakableTextPresentCheck" />
 
-                <Button
-                    android:id="@+id/button62"
+                <ImageButton
+                    android:id="@+id/imageButton14"
                     android:layout_width="match_parent"
-                    android:layout_height="187dp"
-                    android:text="Button" />
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ambiente"
+                    tools:ignore="SpeakableTextPresentCheck" />
 
-                <Button
-                    android:id="@+id/button63"
+                <ImageButton
+                    android:id="@+id/imageButton15"
                     android:layout_width="match_parent"
-                    android:layout_height="187dp"
-                    android:text="Button" />
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/geografia"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
-                <Button
-                    android:id="@+id/button64"
+                <ImageButton
+                    android:id="@+id/imageButton16"
                     android:layout_width="match_parent"
-                    android:layout_height="187dp"
-                    android:text="Button" />
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/musica" />
 
-                <Button
-                    android:id="@+id/button65"
+                <ImageButton
+                    android:id="@+id/imageButton17"
                     android:layout_width="match_parent"
-                    android:layout_height="187dp"
-                    android:text="Button" />
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tecno" />
+
             </LinearLayout>
         </ScrollView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="254dp"
+            android:layout_height="86dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center_horizontal"
+            android:text="¿Qué deseas\n jugar?"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView6"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.052" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
